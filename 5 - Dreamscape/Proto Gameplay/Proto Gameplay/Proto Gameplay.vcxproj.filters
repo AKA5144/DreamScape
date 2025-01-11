@@ -1,0 +1,501 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Modules">
+      <UniqueIdentifier>{d72dddfd-5f34-41ac-8bb1-7e98936fd2dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Outils">
+      <UniqueIdentifier>{cb94f2fb-7b56-41d5-b0a5-ae6e1232c19e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Default">
+      <UniqueIdentifier>{96aac4a8-32e3-44d9-a8d0-5ff8f90bdfad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Modules">
+      <UniqueIdentifier>{65df1b15-2837-46ae-bb95-42dc1da497c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Outils">
+      <UniqueIdentifier>{82f6f4e8-3244-414a-b536-ab2a0a1d574b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Default">
+      <UniqueIdentifier>{a5cd1a9c-7ce1-4782-85cb-f678c1daebd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Modules\Lobby">
+      <UniqueIdentifier>{ffba9e71-ba30-4ad0-9f1c-04e18897ecf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Modules\Lobby">
+      <UniqueIdentifier>{70ab374f-7a0e-4924-870e-1f4d32502f3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Modules\STU">
+      <UniqueIdentifier>{573db043-b85b-43dc-8f14-f6d895dda89b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Modules\STU">
+      <UniqueIdentifier>{95733f0d-16a3-4686-92f6-8646efa6c19e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Modules\BossFinal">
+      <UniqueIdentifier>{468d5bdf-c845-4640-9c40-b635dba8da76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Modules\BossFinal">
+      <UniqueIdentifier>{32fafce5-1591-483b-88ff-d902db8d5dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Modules\Souls">
+      <UniqueIdentifier>{f75aba4f-1972-4699-a468-65ba7ca9b0ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Modules\Souls">
+      <UniqueIdentifier>{3331ca82-22d2-4fa0-ad96-dbe4d50b081e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Modules\Menu">
+      <UniqueIdentifier>{de655f8a-2db7-4d94-9016-a120286dc49f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Modules\Menu">
+      <UniqueIdentifier>{5155666a-cbf4-4dca-b6b7-ac6d7d58dd90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Modules\Platformer">
+      <UniqueIdentifier>{2ac41862-c74f-493c-9ba7-333d5e67d8dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Modules\Platformer">
+      <UniqueIdentifier>{f0414e95-0a08-4290-bd3f-73afe8bd2c68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Common.cpp">
+      <Filter>Source Files\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="CreaMaths.cpp">
+      <Filter>Source Files\Outils</Filter>
+    </ClCompile>
+    <ClCompile Include="GameData.cpp">
+      <Filter>Source Files\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Source Files\Outils</Filter>
+    </ClCompile>
+    <ClCompile Include="Particules.cpp">
+      <Filter>Source Files\Modules\STU</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootThemUp.cpp">
+      <Filter>Source Files\Modules\STU</Filter>
+    </ClCompile>
+    <ClCompile Include="STUEnnemie.cpp">
+      <Filter>Source Files\Modules\STU</Filter>
+    </ClCompile>
+    <ClCompile Include="STUEntities.cpp">
+      <Filter>Source Files\Modules\STU</Filter>
+    </ClCompile>
+    <ClCompile Include="STUGameOver.cpp">
+      <Filter>Source Files\Modules\STU</Filter>
+    </ClCompile>
+    <ClCompile Include="STUHud.cpp">
+      <Filter>Source Files\Modules\STU</Filter>
+    </ClCompile>
+    <ClCompile Include="STUItems.cpp">
+      <Filter>Source Files\Modules\STU</Filter>
+    </ClCompile>
+    <ClCompile Include="STUPlayer.cpp">
+      <Filter>Source Files\Modules\STU</Filter>
+    </ClCompile>
+    <ClCompile Include="STUScore.cpp">
+      <Filter>Source Files\Modules\STU</Filter>
+    </ClCompile>
+    <ClCompile Include="STUShoot.cpp">
+      <Filter>Source Files\Modules\STU</Filter>
+    </ClCompile>
+    <ClCompile Include="STUShootManager.cpp">
+      <Filter>Source Files\Modules\STU</Filter>
+    </ClCompile>
+    <ClCompile Include="STUTurret.cpp">
+      <Filter>Source Files\Modules\STU</Filter>
+    </ClCompile>
+    <ClCompile Include="STUTuto.cpp">
+      <Filter>Source Files\Modules\STU</Filter>
+    </ClCompile>
+    <ClCompile Include="STUWaveManager.cpp">
+      <Filter>Source Files\Modules\STU</Filter>
+    </ClCompile>
+    <ClCompile Include="STUMiniBoss.cpp">
+      <Filter>Source Files\Modules\STU</Filter>
+    </ClCompile>
+    <ClCompile Include="Altar.cpp">
+      <Filter>Source Files\Modules\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="BossStairs.cpp">
+      <Filter>Source Files\Modules\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="Lobby.cpp">
+      <Filter>Source Files\Modules\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="SonLobby.cpp">
+      <Filter>Source Files\Modules\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="BossFinal.cpp">
+      <Filter>Source Files\Modules\BossFinal</Filter>
+    </ClCompile>
+    <ClCompile Include="SoulsBoss.cpp">
+      <Filter>Source Files\Modules\BossFinal</Filter>
+    </ClCompile>
+    <ClCompile Include="BossTemplate.cpp">
+      <Filter>Source Files\Modules\BossFinal</Filter>
+    </ClCompile>
+    <ClCompile Include="ParcourBoss.cpp">
+      <Filter>Source Files\Modules\BossFinal</Filter>
+    </ClCompile>
+    <ClCompile Include="STUBoss.cpp">
+      <Filter>Source Files\Modules\BossFinal</Filter>
+    </ClCompile>
+    <ClCompile Include="LobbyManager.cpp">
+      <Filter>Source Files\Modules\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="SLEnemies.cpp">
+      <Filter>Source Files\Modules\Souls</Filter>
+    </ClCompile>
+    <ClCompile Include="SLMap.cpp">
+      <Filter>Source Files\Modules\Souls</Filter>
+    </ClCompile>
+    <ClCompile Include="SLPlayer.cpp">
+      <Filter>Source Files\Modules\Souls</Filter>
+    </ClCompile>
+    <ClCompile Include="SoulsLevel.cpp">
+      <Filter>Source Files\Modules\Souls</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Outils</Filter>
+    </ClCompile>
+    <ClCompile Include="Collisions.cpp">
+      <Filter>Source Files\Outils</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Modules\Souls</Filter>
+    </ClCompile>
+    <ClCompile Include="BossFinalSound.cpp">
+      <Filter>Source Files\Modules\BossFinal</Filter>
+    </ClCompile>
+    <ClCompile Include="Controls.cpp">
+      <Filter>Source Files\Modules\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyString.cpp">
+      <Filter>Source Files\Modules\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\Modules\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuDisplay.cpp">
+      <Filter>Source Files\Modules\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuInit.cpp">
+      <Filter>Source Files\Modules\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuUpdate.cpp">
+      <Filter>Source Files\Modules\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source Files\Modules\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSettings.cpp">
+      <Filter>Source Files\Modules\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoSettings.cpp">
+      <Filter>Source Files\Modules\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="BossNeyl.cpp">
+      <Filter>Source Files\Modules\Platformer</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraNeyl.cpp">
+      <Filter>Source Files\Modules\Platformer</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManagerNeyl.cpp">
+      <Filter>Source Files\Modules\Platformer</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManagerNeyl.cpp">
+      <Filter>Source Files\Modules\Platformer</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerNeyl.cpp">
+      <Filter>Source Files\Modules\Platformer</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManagementNeyl.cpp">
+      <Filter>Source Files\Modules\Platformer</Filter>
+    </ClCompile>
+    <ClCompile Include="Platformer.cpp">
+      <Filter>Source Files\Modules\Platformer</Filter>
+    </ClCompile>
+    <ClCompile Include="SLHUD.cpp">
+      <Filter>Source Files\Modules\Souls</Filter>
+    </ClCompile>
+    <ClCompile Include="Transition.cpp">
+      <Filter>Source Files\Outils</Filter>
+    </ClCompile>
+    <ClCompile Include="Familiar.cpp">
+      <Filter>Source Files\Modules\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimText.cpp">
+      <Filter>Source Files\Outils</Filter>
+    </ClCompile>
+    <ClCompile Include="Dialogue.cpp">
+      <Filter>Source Files\Modules\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="Victory.cpp">
+      <Filter>Source Files\Modules\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="SLMiniMap.cpp">
+      <Filter>Source Files\Modules\Souls</Filter>
+    </ClCompile>
+    <ClCompile Include="SLShaders.cpp">
+      <Filter>Source Files\Modules\Souls</Filter>
+    </ClCompile>
+    <ClCompile Include="SLBoss.cpp">
+      <Filter>Source Files\Modules\Souls</Filter>
+    </ClCompile>
+    <ClCompile Include="SLSounds.cpp">
+      <Filter>Source Files\Modules\Souls</Filter>
+    </ClCompile>
+    <ClCompile Include="Stars.cpp">
+      <Filter>Source Files\Modules\Lobby</Filter>
+    </ClCompile>
+    <ClCompile Include="Pause.cpp">
+      <Filter>Source Files\Modules\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="SLTutorial.cpp">
+      <Filter>Source Files\Modules\Souls</Filter>
+    </ClCompile>
+    <ClCompile Include="Credits.cpp">
+      <Filter>Source Files\Modules\Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Common.h">
+      <Filter>Resource Files\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CreaMaths.h">
+      <Filter>Resource Files\Outils</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>Resource Files\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Resource Files\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Resource Files\Outils</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Resource Files\Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Particules.hpp">
+      <Filter>Resource Files\Modules\STU</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootThemUp.hpp">
+      <Filter>Resource Files\Modules\STU</Filter>
+    </ClInclude>
+    <ClInclude Include="STUEnnemie.hpp">
+      <Filter>Resource Files\Modules\STU</Filter>
+    </ClInclude>
+    <ClInclude Include="STUEntities.hpp">
+      <Filter>Resource Files\Modules\STU</Filter>
+    </ClInclude>
+    <ClInclude Include="STUGameOver.hpp">
+      <Filter>Resource Files\Modules\STU</Filter>
+    </ClInclude>
+    <ClInclude Include="STUHud.hpp">
+      <Filter>Resource Files\Modules\STU</Filter>
+    </ClInclude>
+    <ClInclude Include="STUItems.hpp">
+      <Filter>Resource Files\Modules\STU</Filter>
+    </ClInclude>
+    <ClInclude Include="STUPlayer.hpp">
+      <Filter>Resource Files\Modules\STU</Filter>
+    </ClInclude>
+    <ClInclude Include="STUScore.hpp">
+      <Filter>Resource Files\Modules\STU</Filter>
+    </ClInclude>
+    <ClInclude Include="STUShoot.hpp">
+      <Filter>Resource Files\Modules\STU</Filter>
+    </ClInclude>
+    <ClInclude Include="STUShootManager.hpp">
+      <Filter>Resource Files\Modules\STU</Filter>
+    </ClInclude>
+    <ClInclude Include="STUTurret.hpp">
+      <Filter>Resource Files\Modules\STU</Filter>
+    </ClInclude>
+    <ClInclude Include="STUTuto.hpp">
+      <Filter>Resource Files\Modules\STU</Filter>
+    </ClInclude>
+    <ClInclude Include="STUWaveManager.hpp">
+      <Filter>Resource Files\Modules\STU</Filter>
+    </ClInclude>
+    <ClInclude Include="STUMiniBoss.hpp">
+      <Filter>Resource Files\Modules\STU</Filter>
+    </ClInclude>
+    <ClInclude Include="Altar.h">
+      <Filter>Resource Files\Modules\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="BossStairs.h">
+      <Filter>Resource Files\Modules\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Lobby.h">
+      <Filter>Resource Files\Modules\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="SonLobby.h">
+      <Filter>Resource Files\Modules\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="BossFinal.h">
+      <Filter>Resource Files\Modules\BossFinal</Filter>
+    </ClInclude>
+    <ClInclude Include="SoulsBoss.h">
+      <Filter>Resource Files\Modules\BossFinal</Filter>
+    </ClInclude>
+    <ClInclude Include="BossTemplate.h">
+      <Filter>Resource Files\Modules\BossFinal</Filter>
+    </ClInclude>
+    <ClInclude Include="ParcourBoss.h">
+      <Filter>Resource Files\Modules\BossFinal</Filter>
+    </ClInclude>
+    <ClInclude Include="STUBoss.h">
+      <Filter>Resource Files\Modules\BossFinal</Filter>
+    </ClInclude>
+    <ClInclude Include="LobbyManager.h">
+      <Filter>Resource Files\Modules\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Easing.h">
+      <Filter>Resource Files\Outils</Filter>
+    </ClInclude>
+    <ClInclude Include="SoulsLevel.h">
+      <Filter>Resource Files\Modules\Souls</Filter>
+    </ClInclude>
+    <ClInclude Include="SLPlayer.h">
+      <Filter>Resource Files\Modules\Souls</Filter>
+    </ClInclude>
+    <ClInclude Include="SLMap.h">
+      <Filter>Resource Files\Modules\Souls</Filter>
+    </ClInclude>
+    <ClInclude Include="SLEnemies.h">
+      <Filter>Resource Files\Modules\Souls</Filter>
+    </ClInclude>
+    <ClInclude Include="ProportionalBars.h">
+      <Filter>Resource Files\Outils</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Resource Files\Outils</Filter>
+    </ClInclude>
+    <ClInclude Include="Collisions.h">
+      <Filter>Resource Files\Outils</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Resource Files\Modules\Souls</Filter>
+    </ClInclude>
+    <ClInclude Include="BossFinalSound.h">
+      <Filter>Resource Files\Modules\BossFinal</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoSettings.h">
+      <Filter>Resource Files\Modules\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSettings.h">
+      <Filter>Resource Files\Modules\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Resource Files\Modules\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuUpdate.h">
+      <Filter>Resource Files\Modules\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuInit.h">
+      <Filter>Resource Files\Modules\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuDisplay.h">
+      <Filter>Resource Files\Modules\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuData.h">
+      <Filter>Resource Files\Modules\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Resource Files\Modules\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyString.h">
+      <Filter>Resource Files\Modules\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls.h">
+      <Filter>Resource Files\Modules\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="BossNeyl.h">
+      <Filter>Resource Files\Modules\Platformer</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraNeyl.hpp">
+      <Filter>Resource Files\Modules\Platformer</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManagerNeyl.hpp">
+      <Filter>Resource Files\Modules\Platformer</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManagerNeyl.hpp">
+      <Filter>Resource Files\Modules\Platformer</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerNeyl.hpp">
+      <Filter>Resource Files\Modules\Platformer</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManagementNeyl.hpp">
+      <Filter>Resource Files\Modules\Platformer</Filter>
+    </ClInclude>
+    <ClInclude Include="Platformer.h">
+      <Filter>Resource Files\Modules\Platformer</Filter>
+    </ClInclude>
+    <ClInclude Include="SLHUD.h">
+      <Filter>Resource Files\Modules\Souls</Filter>
+    </ClInclude>
+    <ClInclude Include="SLEntity.h">
+      <Filter>Resource Files\Modules\Souls</Filter>
+    </ClInclude>
+    <ClInclude Include="Transition.h">
+      <Filter>Resource Files\Outils</Filter>
+    </ClInclude>
+    <ClInclude Include="Familiar.h">
+      <Filter>Resource Files\Modules\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimText.h">
+      <Filter>Resource Files\Outils</Filter>
+    </ClInclude>
+    <ClInclude Include="Dialogue.h">
+      <Filter>Resource Files\Modules\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Victory.h">
+      <Filter>Resource Files\Modules\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="SLShaders.h">
+      <Filter>Resource Files\Modules\Souls</Filter>
+    </ClInclude>
+    <ClInclude Include="SLMiniMap.h">
+      <Filter>Resource Files\Modules\Souls</Filter>
+    </ClInclude>
+    <ClInclude Include="SLBoss.h">
+      <Filter>Resource Files\Modules\Souls</Filter>
+    </ClInclude>
+    <ClInclude Include="SLSounds.h">
+      <Filter>Resource Files\Modules\Souls</Filter>
+    </ClInclude>
+    <ClInclude Include="Stars.h">
+      <Filter>Resource Files\Modules\Lobby</Filter>
+    </ClInclude>
+    <ClInclude Include="Pause.h">
+      <Filter>Resource Files\Modules\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="SLTutorial.h">
+      <Filter>Resource Files\Modules\Souls</Filter>
+    </ClInclude>
+    <ClInclude Include="Credits.h">
+      <Filter>Resource Files\Modules\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Video.h">
+      <Filter>Resource Files\Outils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Altar.cpp" />
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="AnimText.cpp" />
+    <ClCompile Include="BossFinal.cpp" />
+    <ClCompile Include="BossFinalSound.cpp" />
+    <ClCompile Include="BossNeyl.cpp" />
+    <ClCompile Include="BossStairs.cpp" />
+    <ClCompile Include="BossTemplate.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="CameraNeyl.cpp" />
+    <ClCompile Include="CollisionManagerNeyl.cpp" />
+    <ClCompile Include="Collisions.cpp" />
+    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="Controls.cpp" />
+    <ClCompile Include="CreaMaths.cpp" />
+    <ClCompile Include="Credits.cpp" />
+    <ClCompile Include="Dialogue.cpp" />
+    <ClCompile Include="Familiar.cpp" />
+    <ClCompile Include="GameData.cpp" />
+    <ClCompile Include="KeyString.cpp" />
+    <ClCompile Include="Lobby.cpp" />
+    <ClCompile Include="LobbyManager.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MapManagerNeyl.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="MenuDisplay.cpp" />
+    <ClCompile Include="MenuInit.cpp" />
+    <ClCompile Include="MenuUpdate.cpp" />
+    <ClCompile Include="ParcourBoss.cpp" />
+    <ClCompile Include="Particules.cpp" />
+    <ClCompile Include="Pause.cpp" />
+    <ClCompile Include="Platformer.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerNeyl.cpp" />
+    <ClCompile Include="Settings.cpp" />
+    <ClCompile Include="ShootThemUp.cpp" />
+    <ClCompile Include="SLBoss.cpp" />
+    <ClCompile Include="SLEnemies.cpp" />
+    <ClCompile Include="SLHUD.cpp" />
+    <ClCompile Include="SLMap.cpp" />
+    <ClCompile Include="SLMiniMap.cpp" />
+    <ClCompile Include="SLPlayer.cpp" />
+    <ClCompile Include="SLShaders.cpp" />
+    <ClCompile Include="SLSounds.cpp" />
+    <ClCompile Include="SLTutorial.cpp" />
+    <ClCompile Include="SonLobby.cpp" />
+    <ClCompile Include="SoulsBoss.cpp" />
+    <ClCompile Include="SoulsLevel.cpp" />
+    <ClCompile Include="SoundSettings.cpp" />
+    <ClCompile Include="Stars.cpp" />
+    <ClCompile Include="STUBoss.cpp" />
+    <ClCompile Include="STUEnnemie.cpp" />
+    <ClCompile Include="STUEntities.cpp" />
+    <ClCompile Include="STUGameOver.cpp" />
+    <ClCompile Include="STUHud.cpp" />
+    <ClCompile Include="STUItems.cpp" />
+    <ClCompile Include="STUMiniBoss.cpp" />
+    <ClCompile Include="STUPlayer.cpp" />
+    <ClCompile Include="STUScore.cpp" />
+    <ClCompile Include="STUShoot.cpp" />
+    <ClCompile Include="STUShootManager.cpp" />
+    <ClCompile Include="STUTurret.cpp" />
+    <ClCompile Include="STUTuto.cpp" />
+    <ClCompile Include="STUWaveManager.cpp" />
+    <ClCompile Include="TimeManagementNeyl.cpp" />
+    <ClCompile Include="Transition.cpp" />
+    <ClCompile Include="Victory.cpp" />
+    <ClCompile Include="VideoSettings.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Altar.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="AnimText.h" />
+    <ClInclude Include="BossFinal.h" />
+    <ClInclude Include="BossFinalSound.h" />
+    <ClInclude Include="BossNeyl.h" />
+    <ClInclude Include="BossStairs.h" />
+    <ClInclude Include="BossTemplate.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CameraNeyl.hpp" />
+    <ClInclude Include="CollisionManagerNeyl.hpp" />
+    <ClInclude Include="Collisions.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="Controls.h" />
+    <ClInclude Include="CreaMaths.h" />
+    <ClInclude Include="Credits.h" />
+    <ClInclude Include="Debug.h" />
+    <ClInclude Include="Dialogue.h" />
+    <ClInclude Include="Easing.h" />
+    <ClInclude Include="Familiar.h" />
+    <ClInclude Include="GameData.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="KeyString.h" />
+    <ClInclude Include="Lobby.h" />
+    <ClInclude Include="LobbyManager.h" />
+    <ClInclude Include="MapManagerNeyl.hpp" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="MenuData.h" />
+    <ClInclude Include="MenuDisplay.h" />
+    <ClInclude Include="MenuInit.h" />
+    <ClInclude Include="MenuUpdate.h" />
+    <ClInclude Include="ParcourBoss.h" />
+    <ClInclude Include="Particules.hpp" />
+    <ClInclude Include="Pause.h" />
+    <ClInclude Include="Platformer.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerNeyl.hpp" />
+    <ClInclude Include="ProportionalBars.h" />
+    <ClInclude Include="Settings.h" />
+    <ClInclude Include="ShootThemUp.hpp" />
+    <ClInclude Include="SLBoss.h" />
+    <ClInclude Include="SLEnemies.h" />
+    <ClInclude Include="SLEntity.h" />
+    <ClInclude Include="SLHUD.h" />
+    <ClInclude Include="SLMap.h" />
+    <ClInclude Include="SLMiniMap.h" />
+    <ClInclude Include="SLPlayer.h" />
+    <ClInclude Include="SLShaders.h" />
+    <ClInclude Include="SLSounds.h" />
+    <ClInclude Include="SLTutorial.h" />
+    <ClInclude Include="SonLobby.h" />
+    <ClInclude Include="SoulsBoss.h" />
+    <ClInclude Include="SoulsLevel.h" />
+    <ClInclude Include="SoundSettings.h" />
+    <ClInclude Include="Stars.h" />
+    <ClInclude Include="STUBoss.h" />
+    <ClInclude Include="STUEnnemie.hpp" />
+    <ClInclude Include="STUEntities.hpp" />
+    <ClInclude Include="STUGameOver.hpp" />
+    <ClInclude Include="STUHud.hpp" />
+    <ClInclude Include="STUItems.hpp" />
+    <ClInclude Include="STUMiniBoss.hpp" />
+    <ClInclude Include="STUPlayer.hpp" />
+    <ClInclude Include="STUScore.hpp" />
+    <ClInclude Include="STUShoot.hpp" />
+    <ClInclude Include="STUShootManager.hpp" />
+    <ClInclude Include="STUTurret.hpp" />
+    <ClInclude Include="STUTuto.hpp" />
+    <ClInclude Include="STUWaveManager.hpp" />
+    <ClInclude Include="TimeManagementNeyl.hpp" />
+    <ClInclude Include="Transition.h" />
+    <ClInclude Include="Victory.h" />
+    <ClInclude Include="Video.h" />
+    <ClInclude Include="VideoSettings.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{7f5508aa-59e3-4bc0-9176-620fbbd84e6c}</ProjectGuid>
+    <RootNamespace>Proto_Gameplay</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Proto Gameplay</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>../../include/</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../lib/Debug</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system-d.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-graphics-d.lib;sfml-main-d.lib;sfml-network-d.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;sfeMovie-d.lib;sfeMovieDemo.lib;sfeMovieMinimalistDemo.lib;swresample.lib;swscale.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>../../include/</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../lib/Release/</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-system.lib;sfml-window.lib;sfml-audio.lib;sfml-graphics.lib;sfml-main.lib;sfml-network.lib;avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;sfeMovie.lib;sfeMovieDemo.lib;sfeMovieMinimalistDemo.lib;swresample.lib;swscale.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
